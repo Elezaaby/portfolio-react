@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage":"https://elezaaby.github.io/portfolio-react",
+  "homepage": "https://elezaaby.github.io/portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +22,7 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.1",
     "sass": "^1.49.9",
+    "styled-components": "^5.3.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

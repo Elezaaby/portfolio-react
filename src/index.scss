@@ -1,0 +1,16 @@
+$premry-color: #6e57e0;
+$premry-background: #191627;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $premry-background;
+  color: $premry-color;
+  margin: 0;
+  font: 300 11px/1.4 "Helvetica Neue", "sans-serif";
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
