@@ -91,6 +91,7 @@ const NavBarContainer = styled.div`
   top: 0;
   left: 0;
   min-height: 500px;
+  z-index: 5;
 
   a{
     padding: 8px 0;
