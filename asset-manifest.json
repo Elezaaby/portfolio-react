@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.a1bd4ad4.css",
-    "main.js": "/portfolio-react/static/js/main.e77f68f7.js",
+    "main.js": "/portfolio-react/static/js/main.b532955b.js",
     "static/media/helvetica-neu.ttf": "/portfolio-react/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/portfolio-react/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logo.png": "/portfolio-react/static/media/logo.e2537f29fe2dc52db20c.png",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio-react/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/logo.svg": "/portfolio-react/static/media/logo.0a8a10cb66560aae3939f9e19324b1a8.svg",
     "index.html": "/portfolio-react/index.html",
     "main.a1bd4ad4.css.map": "/portfolio-react/static/css/main.a1bd4ad4.css.map",
-    "main.e77f68f7.js.map": "/portfolio-react/static/js/main.e77f68f7.js.map"
+    "main.b532955b.js.map": "/portfolio-react/static/js/main.b532955b.js.map"
   },
   "entrypoints": [
     "static/css/main.a1bd4ad4.css",
-    "static/js/main.e77f68f7.js"
+    "static/js/main.b532955b.js"
   ]
 }
