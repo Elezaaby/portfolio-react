@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import LogoTitle from '../assets/images/logo.png'
+import LogoHome from './LogoHome';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <h2>Frontend developer / JavaScript Expert / React.Js </h2>
         <Link to='contact' className='btn'>CONTACT ME</Link>
       </TextZone>
+      <LogoHome />
     </HomePage>
   )
 }
