@@ -29,11 +29,11 @@ const LogoHome = () => {
 }
 
 const LogoContainer = styled.div`
-  width: 400px;
+  width: 600px;
   height: 609px;
   position: absolute;
   top: 0;
-  right: 15%;
+  right: 8%;
   bottom: 0;
   left: auto;
 
@@ -45,13 +45,7 @@ const LogoContainer = styled.div`
   }
 
   img{
-    position: absolute;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    margin: auto;
-    left: -35%;
-    width: 160%;
+    width: 100%;
     z-index: 1;
     opacity: 0;
   }

@@ -1,20 +1,39 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import LogoTitle from '../assets/images/logo.png'
+import AnimationLetter from './AnimationLetter';
 import LogoHome from './LogoHome';
 
+
 const Home = () => {
+  const [classLetter, setClassLetter] = useState('text_animation')
+  const firstNameArray = ['m', 'a', 'h', 'm', 'o', 'u', 'd']
+  const lastNameArray = ['l', 'e', 'z', 'a', 'b', 'y', ',']
+  const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+
+
+  useEffect(() => {
+    setTimeout(() => {
+      setClassLetter('text_animation_hover')
+    }, 3000);
+  }, [])
+
   return (
     <HomePage className='container'>
       <TextZone>
         <h1>
-          Hi, <br /> I’m
-          mahmoud
+          <span className={`${classLetter} _10`}>H</span>
+          <span className={`${classLetter} _11`}>i</span>
+          <span className={`${classLetter} _12`}>,</span><br />
+          <span className={`${classLetter} _13`}>I</span>
+          <span className={`${classLetter} _14`}>’</span>
+          <span style={{ marginRight: '20px' }} className={`${classLetter} _15`}>m</span>
+          <AnimationLetter classLetter={classLetter} array={firstNameArray} index={16} />
           <img src={LogoTitle} alt='Alezbay' />
-          lezaby,
+          <AnimationLetter classLetter={classLetter} array={lastNameArray} index={23} />
           <br />
-          Web developer.
+          <AnimationLetter classLetter={classLetter} array={jobArray} index={30} />
         </h1>
         <h2>Frontend developer / JavaScript Expert / React.Js </h2>
         <Link to='contact' className='btn'>CONTACT ME</Link>
@@ -42,6 +61,7 @@ const TextZone = styled.div`
     font-family: 'Coolvetica';
     font-weight: 400;
     line-height: 53px;
+    z-index: 5;
 
     &::before{
       content: '<h1>' ;
@@ -82,7 +102,7 @@ const TextZone = styled.div`
     font-family: 'sans-serif';
     font-weight: 400;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
+    animation: fadeIn 1s 3s backwards;
   }
 
   .btn{

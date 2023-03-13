@@ -32,3 +32,30 @@ textarea {
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+
+.text_animation {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text_animation_hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: #6e57e0;
+  }
+}
+
+@for $i from 1 through 43 {
+  .text_animation._#{$i} {
+    animation-delay: #{$i / 15}s !important;
+  }
+}
