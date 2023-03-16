@@ -16,7 +16,7 @@ const Sidebar = () => {
       </Link>
       <Nav>
         <NavLink
-          to='/portfolio-react'
+          to='home'
           exact='true'
           activeclassname='active'
           className='home_link'
@@ -181,7 +181,7 @@ const Nav = styled.div`
   }
   a.projects_link{
     &::after{
-      content: 'Projects';
+      content: 'PROJECT';
     }
   }
 
